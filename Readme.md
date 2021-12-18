@@ -70,4 +70,38 @@ PS C:\Основы GIT\Домашка\ДЗ_2_Истркуция по работ�
 
 ## Удаление веток
 
+Для того чтобы удалить ветку можем использоать команду <***`git branch -d <имя ветки>`***>.
+Ветка которую мы хотим удалить должна быть слита.
+
+Пример:  
+
+Для начала вводим команду <***`git branch`***>.  
+Потом выбираем ветку которую хотим удалить  <***`git  branch -d Prepare_Repository`***>.
+
+
+
+>PS C:\Основы GIT\Домашка\ДЗ_2_Истркуция по работе с GIT> <font color="#FFFF00">  git </font> branch  
+  Branches_in_Git  
+  Change_Log  
+  Conclusion  
+  Creating_Fixations  
+  Merging_branches_and_resolving_conflicts  
+  Move_Between_Saves  
+  Prepare_Repository  - эту ветку будем удалять 
+  Removing_Branches  
+\*<font color="#00FF00"> master </font>  
+PS C:\Основы GIT\Домашка\ДЗ_2_Истркуция по работе с GIT> <font color="#FFFF00"> git </font>  branch -d Prepare_Repository   
+Deleted branch Prepare_Repository (was 86b9d8d).  a870839). - Git гоорит, что ветка успешна удалена.    
+Далее проеряем, что этой ветки нет  
+PS C:\Основы GIT\Домашка\ДЗ_2_Истркуция по работе с GIT> <font color="#FFFF00">  git </font> branch  
+  Branches_in_Git  
+  Change_Log  
+  Conclusion  
+  Creating_Fixations  
+  Merging_branches_and_resolving_conflicts  
+  Move_Between_Saves  
+  Removing_Branches  
+\* <font color="#00FF00"> master  </font>  
+PS C:\Основы GIT\Домашка\ДЗ_2_Истркуция по работе с GIT
+
 ###### The end
